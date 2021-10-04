@@ -67,21 +67,7 @@ const Footer =() =>{
 
 				<Grid item>
 				
-				<TextField style={{backgroundColor:"white"}}variant="outlined">
-
-					<form>
-						<input 
-
-							className="footer-input"
-							type="email"
-							name="email"
-							placeHolder="Enter your email here"
-						/>
-					<button >Susbcribe</button>
-
-					</form>
-
-				</TextField>
+				<TextField style={{backgroundColor:"white"}} label="Email" placeholder="Enter your email here" color="primary" variant="outlined"/>
 
 				</Grid>
 				
